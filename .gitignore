@@ -1,9 +1,29 @@
+# OSX
+#
+.DS_Store
+
 # IntelliJ
+#
 .idea
 
-# Node
-node_modules
-*.log
+# node.js
+#
+node_modules/
+npm-debug.log
 
-# Build artifacts
-target
+# custom
+apps/
+*.log
+chromeDriver
+
+package-lock.json
+
+#reports
+/reports
+/test-report
+bugreport*
+
+yarn.lock
+.env
+.vscode/
+users.json
